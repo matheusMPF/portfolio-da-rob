@@ -1,0 +1,38 @@
+.intro-section {
+  padding: 4rem 2rem;
+  background-color: #0b0c10;
+  color: white;
+  text-align: center;
+}
+
+.intro-title {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-family: 'Georgia', serif;
+}
+
+.intro-title .highlight {
+  color: #00ffff;
+}
+
+.intro-subtitle {
+  color: #00ffff;
+  margin-bottom: 2rem;
+}
+
+.intro-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
+  border: 2px solid #00ffff;
+  object-fit: cover;
+}
