@@ -1,4 +1,4 @@
-// src/app/components/IntroSection.tsx
+import "../styles/IntroSection.css"
 export default function IntroSection() {
   return (
     <section className="intro-section">
