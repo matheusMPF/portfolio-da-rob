@@ -1,5 +1,5 @@
 import "./styles.css";
-import PortfoliTitle from "../../../public/portfolio-title.png";
+import PortfoliTitle from "../../../public/imgs/portfolio-title.png";
 import Image from "next/image";
 import { Button } from "@/components/Button";
 
