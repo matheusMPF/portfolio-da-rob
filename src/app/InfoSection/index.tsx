@@ -1,29 +1,37 @@
-import "../styles/InfoSection.css";
+import "./styles.css"
 
-export default function InfoSection() {
+export const InfoSection = () => {
   return (
     <section className="info-section">
       <div className="info-column">
         <h3 className="info-title">Educação Acadêmica</h3>
         <ul>
           <li>
-            <strong>Universidade Católica de Pernambuco</strong><br />
-            Superior em Sistemas para Internet<br />
+            <strong>Universidade Católica de Pernambuco</strong>
+            <br />
+            Superior em Sistemas para Internet
+            <br />
             <span className="period">2024 – 2026</span>
           </li>
           <li>
-            <strong>Anhanguera Educacional</strong><br />
-            Superior em Design Gráfico<br />
+            <strong>Anhanguera Educacional</strong>
+            <br />
+            Superior em Design Gráfico
+            <br />
             <span className="period">2023 – 2025</span>
           </li>
           <li>
-            <strong>Decolar Tech 2025</strong><br />
-            DIO & Avanade<br />
+            <strong>Decolar Tech 2025</strong>
+            <br />
+            DIO & Avanade
+            <br />
             <span className="period">Início em mar. de 2025</span>
           </li>
           <li>
-            <strong>Bootcamp 2025 – UX</strong><br />
-            AvanTI<br />
+            <strong>Bootcamp 2025 – UX</strong>
+            <br />
+            AvanTI
+            <br />
             <span className="period">06/25 – 07/25</span>
           </li>
         </ul>
@@ -50,9 +58,15 @@ export default function InfoSection() {
 
         <h3 className="info-title">Idiomas</h3>
         <ul className="language-list">
-          <li><strong>Português:</strong> 🇧🇷</li>
-          <li><strong>Inglês:</strong> ——</li>
-          <li><strong>Espanhol:</strong> ——</li>
+          <li>
+            <strong>Português:</strong> 🇧🇷
+          </li>
+          <li>
+            <strong>Inglês:</strong> ——
+          </li>
+          <li>
+            <strong>Espanhol:</strong> ——
+          </li>
         </ul>
 
         <h3 className="info-title">Interesses</h3>
@@ -63,4 +77,4 @@ export default function InfoSection() {
       </div>
     </section>
   );
-}
+};

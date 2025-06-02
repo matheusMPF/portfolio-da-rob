@@ -1,10 +1,10 @@
 // src/app/page.tsx
-'use client';
+"use client";
 
-import HeroSection from './components/HeroSection';
-import IntroSection from './components/IntroSection';
-import InfoSection from './components/InfoSection';
-import Footer from './components/Footer';
+import Footer from "../components/Footer";
+import { HeroSection } from "./HeroSection";
+import { InfoSection } from "./InfoSection";
+import { IntroSection } from "./IntroSection";
 
 export default function Home() {
   return (
